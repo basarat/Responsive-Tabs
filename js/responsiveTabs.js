@@ -104,6 +104,9 @@ var RESPONSIVEUI = {};
 
 							//reset height of tab panels to auto
 							$tabsWrapper.css('height', 'auto');
+							
+							// hide and show this tab							
+							$tabPanel.css('opacity', 0).animate({ 'opacity': 1 }, 400);
 						}
 					});
 					
